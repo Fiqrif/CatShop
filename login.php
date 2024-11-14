@@ -26,9 +26,9 @@
 	       <i class="fas fa-bars"></i>
 	    </label>
 	    <ul>
-		<li><a href="index.html">Home</a></li>
+		<li><a href="index.php">Home</a></li>
 		<li><a href="#">Categories</a></li>
-		<li><a href="login.html" class="btn_login">Login</a></li>
+		<li><a href="login.php" class="btn_login">Login</a></li>
 	    </ul>
         </nav>
 	</header>
@@ -36,7 +36,7 @@
 	  <div class="center">
 	    <div class="form-login">
 		 <h3>Login</h3>
-		 <form action="">
+		 <form action="login-proses.php" method="post">
 		   <input class="input" type="text" name="username"
 			    placeholder="Username" />
 	         <input class="input" type="password" name="password"
@@ -45,7 +45,7 @@
                       id="login"> Login
 		   </button>
 		 </form>
-		 <a href="register.html" class="link-register">
+		 <a href="register.php" class="link-register">
                   Register Disini</a>
 	    </div>
 	  </div>
